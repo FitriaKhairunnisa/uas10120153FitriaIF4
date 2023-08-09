@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment10120153">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="left|center_vertical"
+        android:orientation="vertical"
+        android:layout_margin="17dp">
+        <ImageView
+            android:layout_width="189dp"
+            android:layout_height="194dp"
+            android:background="@drawable/fotoku"
+            android:contentDescription="logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.143"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.096" />
+
+        <TextView
+            android:id="@+id/teks1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM : 10120153"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="274dp" />
+
+        <TextView
+            android:id="@+id/teks2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teks1"
+            android:text="NAMA : Fitria Khairunnisa Sayhputri Joisangadji"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="308dp" />
+
+        <TextView
+            android:id="@+id/teks3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teks1"
+            android:text="KELAS : IF - 4"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
